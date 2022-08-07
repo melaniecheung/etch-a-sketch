@@ -1,0 +1,85 @@
+body {
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    background-color: #D9E2EC;
+    color: #102A43;
+}
+
+.color-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+
+input[type="color"] {
+	border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#colorBtn {
+    background-color: rgb(176, 255, 176);
+    border: 1px solid black;
+    color: #102A43;
+    font-size: 16px;
+    font-family: 'Audiowide', sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#clearBtn {
+    background-color: rgb(176, 255, 176);
+    border: 1px solid black;
+    color: #102A43;
+    font-size: 16px;
+    font-family: 'Audiowide', sans-serif;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    margin: auto
+}
+
+#slider-text {
+    font-size: 16px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 15px;
+    border-radius: 5px;  
+    background: white;
+    outline: none;
+    border: 1px solid black;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #102A43;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+
+
