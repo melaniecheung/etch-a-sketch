@@ -1,2 +1,1 @@
-# etch-a-sketch
-https://melaniecheung.github.io/etch-a-sketch/
+[Live preview](https://melaniecheung.github.io/etch-a-sketch/)
